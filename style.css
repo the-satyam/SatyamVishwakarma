@@ -1,0 +1,61 @@
+body {
+    line-height: 1.6;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+}
+
+h4 {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+    color: white;
+}
+h5 {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+h6 {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+a {
+    color: #AAADDA;
+}
+
+a:hover {
+    color: #AEB09B;
+}
+
+
+
+.section-about img {
+    border-radius: 50%;
+    border: 5px solid whitesmoke;
+    box-shadow: 5px 5px rgb(211, 210, 210);
+}
+
+.section-contact .fa-2x {
+    margin: 5px 10px;
+}
+
+.section-contact .fa-2x:hover {
+    color: black;
+}
+
+.carousel {
+    transform: translateY(-100px);
+    height: 480px;
+    perspective: 600px;
+}
+
+.carousel .carousel-item {
+    width: 500px;
+}
+
+.carousel .carousel-item img {
+    width: 100%;
+}
+
